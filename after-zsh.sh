@@ -9,4 +9,4 @@ sudo apt-get install fonts-powerline
 curl https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.ansi-dark --output ~/.dircolors
 
 mv ~/.zshrc ~/.zshrc.old
-mv .zshrc ~/.zshrc
+cp zshrc ~/.zshrc

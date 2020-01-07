@@ -4,3 +4,4 @@ nvm install node
 nvm use node
 npm install -g generator-angular-fullstack
 npm install -g sass sass-lint
+npm install -g diff-so-fancy

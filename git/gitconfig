@@ -1,3 +1,5 @@
+[core]
+	editor = code
 # A good list of alises http://haacked.com/archive/2014/07/28/github-flow-aliases/
 [alias]
         # Staging
@@ -177,19 +179,6 @@
         changed = yellow reverse
         untracked = red reverse
 
-# Git mergetool
-[merge]
-        tool = opendiff
-
-[core]
-        editor = nano
-        abbrev = 12
-        attributesfile = ~/.gitattributes
-        excludesfile = ~/.gitignore
-        autocrlf = input
-        mergeoptions = --no-edit
-        ignorecase = false
-
 [pager]
         # Insanely beautiful diffs ==> npm install -g diff-so-fancy
         diff = diff-so-fancy | less --tabs=4 -RFX
@@ -213,8 +202,8 @@
 
 # Any GitHub repo with my username should be checked out r/w by default
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
-[url "git@github.com:nicksp/"]
-        insteadOf = "git://github.com/nicksp/"
+[url "git@github.com:Jenczu11/"]
+        insteadOf = "git://github.com/Jenczu11/"
 
 # Rewrites of repo paths
 [url "git@github.com:"]
