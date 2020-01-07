@@ -6,3 +6,4 @@ cd programs/
 ./python.sh
 ./vsc.sh
 ./yarn.sh
+./chrome.sh
