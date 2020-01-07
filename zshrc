@@ -6,7 +6,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ZSH_THEME="agnoster"
 
-plugins=(git node npm npx nvm z)
+plugins=(git node npm nvm z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -20,6 +20,7 @@ eval `dircolors ~/.dircolors --sh`
 #Plugins
 source ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /etc/zsh_command_not_found  
 
 #eval $(thefuck --alias)
 

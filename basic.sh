@@ -23,6 +23,7 @@ install htop
 install nmap
 install unzip
 install zip
+install gettext
 
 # Java stuff
 install default-jdk
