@@ -19,3 +19,4 @@ install esbenp.prettier-vscode
 install emmanuelbeziat.vscode-great-icons
 install jolaleye.horizon-theme-vscode
 install vscode-icons-team.vscode-icons
+install Dart-Code.fluuter
