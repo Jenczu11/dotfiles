@@ -218,3 +218,8 @@
 
 [fetch]
         prune = true
+[user]
+	email = bartek.jencz@wp.pl
+	name = Jenczu11
+[credential]
+	helper = store
