@@ -1,9 +1,5 @@
-
 # Path to your oh-my-zsh installation.
-export ZSH="/home/bjencz/.oh-my-zsh"
-
-
-
+export ZSH=$HOME/.oh-my-zsh
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -22,8 +18,6 @@ export ZSH="/home/bjencz/.oh-my-zsh"
 # flutter
 export FLUTTER_HOME=/usr/lib/flutter
 export PATH=$FLUTTER_HOME/bin:$PATH
-
-
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -120,9 +114,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # load dircolors
-eval `dircolors ~/.dircolors`
+eval `dircolors ~/.dircolors --sh`
 
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.oh-my-zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
