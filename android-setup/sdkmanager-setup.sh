@@ -1,7 +1,10 @@
 # Flutter Setup
 # Author : bjencz
 # Date 07.01.2020
-
+function print(){
+    printf "\033[1;32m$1\033[0m\n" 
+}
+print "Setuping sdkManager"
 # Download neccesary sdk's
 sdkmanager "platforms;android-29"
 sdkamanger "platform-tools"
