@@ -1,5 +1,5 @@
 # legendary-spork
-My setup
+My setup mostly based on https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker
 
 ## How to
 Run chmod -R 755 on directory
@@ -9,7 +9,7 @@ Run `ohmyzsh-setup.sh`
 Log out and logIn
 
 Run `after-zsh.sh`
-And change font in terminal to proper with powerline
+And change font in terminal to proper with powerline https://github.com/powerline/fonts for example "Fira Mono for Powerline"
 
 Then run
 ```
